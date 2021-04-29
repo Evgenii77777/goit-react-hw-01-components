@@ -1,0 +1,30 @@
+.profile {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.avatar {
+  border-radius: 50%;
+  border: 2px solid red;
+}
+.stats {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  list-style: none;
+  justify-content: center;
+  background-color: gray;
+}
+.descr {
+  align-items: center;
+  text-align: center;
+  display: block;
+}
+.qyantyti {
+  color: black;
+  font-weight: bold;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}

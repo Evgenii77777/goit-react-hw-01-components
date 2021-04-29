@@ -1,0 +1,21 @@
+.common {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.red {
+  composes: common;
+  background-color: red;
+}
+
+.green {
+  composes: common;
+  background-color: green;
+}
+.item {
+  border: 1px solid blue;
+  box-shadow: 10px 5px 5px blueviolet;
+  margin-bottom: 10px;
+}

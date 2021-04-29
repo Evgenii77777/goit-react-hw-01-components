@@ -1,0 +1,11 @@
+.section {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
